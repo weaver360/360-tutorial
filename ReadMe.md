@@ -1,16 +1,16 @@
-###360˚ WebVR Virtual Tour Tutorial
+## 360˚ WebVR Virtual Tour Tutorial
 
-###Introduction
+### Introduction
 The webpage you’re looking at is called a “GitHub repository” of files. Look at the folder structure and mentally note the names of the the folders.
 
 Once you have looked at them, let's get started.
 
-###Create an NCSU Github account
+### Create an NCSU Github account
 If you do not already have an NCSU Github account, create one [here](https://github.ncsu.edu)
 
 Log into your account
 
-###Fork the code repository
+### Fork the code repository
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original.
 
 Navigate to [https://github.ncsu.edu/smsejwan/360-tutorial](https://github.ncsu.edu/smsejwan/360-tutorial)
@@ -22,7 +22,7 @@ You should now have this code repository in your own Github account at the follo
 
 https://github.ncsu.edu/YOUR_USERNAME/360-tutorial
 
-###Create a Github page for your project
+### Create a Github page for your project
 Click on Settings
 
 Under Github Pages, click the dropdown menu under Source. Change to **master branch**
@@ -31,7 +31,7 @@ Under Github Pages, click the dropdown menu under Source. Change to **master bra
 
 This will create a new web page where you can see your gallery live!
 
-###Learn to make your own gallery
+### Learn to make your own gallery
 
 Open this link in a **new tab** to see what your gallery currently looks like, replacing YOUR_USERNAME with your Github username:
 https://pages.github.ncsu.edu/YOUR_USERNAME/360-tutorial/
@@ -196,7 +196,7 @@ Example: If your curved image component is ```html <a-curvedimage id="one" src="
  
  Now you can test your app here and check if all the links are working:[gallery.html](https://github.ncsu.edu/YOUR_UNITYID/360-tutorial/blob/master/gallery.html) in your repository.   
  
-###Task 6: Understanding Aframe
+### Task 6: Understanding Aframe
 You have now understood the major components of aframe to create your own gallery.
 Lets understand remaining concepts.
 
