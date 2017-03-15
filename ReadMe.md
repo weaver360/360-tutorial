@@ -1,4 +1,4 @@
-##360˚ WebVR Virtual Tour Tutorial
+###360˚ WebVR Virtual Tour Tutorial
 
 ###Introduction
 The webpage you’re looking at is called a “GitHub repository” of files. Look at the folder structure and mentally note the names of the the folders.
