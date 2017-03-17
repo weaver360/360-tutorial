@@ -13,14 +13,14 @@ Log into your account
 ### Fork the code repository
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original.
 
-Navigate to [https://github.ncsu.edu/smsejwan/360-tutorial](https://github.ncsu.edu/smsejwan/360-tutorial)
+Navigate to [https://github.com/smsejwan/360-tutorial](https://github.com/smsejwan/360-tutorial)
 
 Click the "Fork" button in the top right of the page:
 ![](assets/fork.png)
 
 You should now have this code repository in your own Github account at the following address (replace YOUR_USERNAME with your Github account name):
 
-https://github.ncsu.edu/YOUR_USERNAME/360-tutorial
+https://github.com/Your_Username/360-tutorial
 
 ### Create a Github page for your project
 Click on Settings
@@ -34,7 +34,7 @@ This will create a new web page where you can see your gallery live!
 ### Learn to make your own gallery
 
 Open this link in a **new tab** to see what your gallery currently looks like, replacing YOUR_USERNAME with your Github username:
-https://pages.github.ncsu.edu/YOUR_USERNAME/360-tutorial/
+https://pages.github.com/Your_Username/360-tutorial
 
 ![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
 
@@ -48,7 +48,7 @@ First task is to upload the images you just clicked in the assest folder.
 
 If you don't have images you can use these images from a Google Drive folder onto your Desktop: [360 images](https://drive.google.com/open?id=0B7icOoMjnbmPZDBjVFAycHN4a3c) and use them.
 
-Open the [*assets*](https://github.ncsu.edu/smsejwan/360-tutorial/tree/master/assets) folder in your repository.  
+Open the [*assets*](https://github.com/Your_Username/360-tutorial/tree/master/assets) folder in your repository.  
 
 ![Select assets](/readme_files/assetsselect.jpg "Select assets")
 
@@ -59,7 +59,7 @@ Then click on ‘Upload files’ button.
 
 Upload all the images (i.e., 3.jpg, 4.jpg, 5.jpg and 6.jpg) that you just clicked or downloaded.
 
-After you are done uploading the images to the ‘assets’ folder, go to the [gallery.html](https://github.ncsu.edu/smsejwan/360-tutorial/blob/master/gallery.html) in your repository.
+After you are done uploading the images to the ‘assets’ folder, go to the [gallery.html](https://github.com/Your_Username/360-tutorial/blob/master/gallery.html) in your repository.
 
 Click at the edit button.
 ![Cick at edit in gallery.html](/readme_files/galleryselectedit.jpg "Edit gallery.html")
@@ -143,7 +143,7 @@ Example: If your asset is:
 
 ### Task 4: Our next task is to add 360 image file for each image to Demo folder.
 
-Go to https://github.ncsu.edu/YOUR_UNITY/360-tutorial/tree/master/demos
+Go to https://github.com/Your_Username/360-tutorial/tree/master/demos
 
 Here We have to create a folder for each 360 view. 
 As you can see there are already 6 folders created in this view.
@@ -152,7 +152,7 @@ We need to go to each folder and make two changes.
 1st change is: in /demos/1/assests/ 
 add your image that is the 1st image in your gallery..
 
-and th 2nd change is: we need to open https://github.ncsu.edu/YOUR_UNITYID/360-tutorial/blob/master/demos/1/index.html
+and th 2nd change is: we need to open https://github.com/Your_Username/360-tutorial/blob/master/demos/1/index.html
 And add Assets for our image and change the corresponding component.
 And make the neccessary change on line 13 and 31 of the above file.
 
