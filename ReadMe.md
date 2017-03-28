@@ -1,5 +1,5 @@
 ## 360˚ WebVR Virtual Tour Tutorial
-This app and tutorial were created by Shalini Sejwani (@smsejwan). The tutorial was modified for a workshop at NCSU Libraries by Alison Blaine (@alblaine)
+This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://github.com/smsejwan). The tutorial was adapted for a workshop at NCSU Libraries by Alison Blaine ([@alblaine](https://github.com/alblaine)).
 
 ### Introduction
 The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset.
@@ -17,7 +17,7 @@ If you do not already have an Github account, create one [here](https://github.c
 
 Log into your account.
 
-### Fork the code repository
+### Fork the code repository ([helper video](https://youtu.be/yZmi2VQp4Mw))
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original repository.
 
 Click the "Fork" button in the top right of this page:
@@ -27,7 +27,7 @@ You should now have this code repository in your own Github account at the follo
 
 https://github.com/Your_Username/360-tutorial
 
-### Create a Github page for your project
+### Create a Github page for your project ([helper video](https://youtu.be/yZmi2VQp4Mw))
 Click on Settings
 
 Under Github Pages, click the dropdown menu under Source. Change to **master branch**
@@ -39,20 +39,18 @@ This will create a new web page where you can see your gallery live!
 Refresh the settings page.
 
 A green link should appear that looks like this:
-![](assets/published.png)
+![](readme_files/published.png)
 
 Open your Github Pages link in a **new tab** to see your current 360 VR gallery.
 https://pages.github.com/Your_Username/360-tutorial
 
-#### Need help? Here's a video showing the previous steps:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yZmi2VQp4Mw" frameborder="0" ></iframe>
 
 ### Learn to make your own gallery
 This demo gallery only has 2 images. So to fix this, we need to add your images to this page.
 
 ![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
 
-### Task 1: Add images to the assets folder
+### Task 1: Upload images to the assets folder ([helper video](https://youtu.be/Sr0En2GScTg))
 The first task is to upload the images you just clicked in the asset folder.
 
 If you don't have images you can use these images from a Google Drive folder. Download these [360 images](https://drive.google.com/open?id=0B7icOoMjnbmPZDBjVFAycHN4a3c) to your Desktop to use them.
@@ -74,8 +72,6 @@ Click on the edit button.
 ![Cick at edit in gallery.html](/readme_files/galleryselectedit.jpg "Edit gallery.html")
 
 In the next task, you will add some code in here to be able to see your images.
-
-#### Need help? [Here’s a video of Task 1](https://youtu.be/Sr0En2GScTg)
 
 
 ### Task 2: Add lines of code to gallery.html file for your images.
