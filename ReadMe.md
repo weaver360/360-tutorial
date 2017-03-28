@@ -46,7 +46,7 @@ Open your Github Pages link in a **new tab** to see your current 360 VR gallery.
 https://pages.github.com/Your_Username/360-tutorial
 
 #### Need help? Here's a video showing the previous steps:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yZmi2VQp4Mw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yZmi2VQp4Mw" frameborder="0" ></iframe>
 
 ### Learn to make your own gallery
 This demo gallery only has 2 images. So to fix this, we need to add your images to this page.
@@ -77,7 +77,7 @@ Click on the edit button.
 In the next task, you will add some code in here to be able to see your images.
 
 #### Need help? Here’s a video of Task 1:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr0En2GScTg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr0En2GScTg" frameborder="0" ></iframe>
 
 ### Task 2: Add lines of code to gallery.html file for your images.
 We place all our assets in one place for better performance.
@@ -110,7 +110,7 @@ The src needs to show the location (in the assets folder) and name of the file: 
 When you've done this for all of your images, scroll to the bottom of the page and press the green commit button.
 
 #### Need help? Here's a video showing the steps in Task 2:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CmrXa2nGlzo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmrXa2nGlzo" frameborder="0" ></iframe>
 
 ### Task 3: Add the curved-image components for remaining images.
 We have now linked our images to our webpage, Our next task is to display them.
@@ -160,7 +160,7 @@ Example: If your asset is:
  If Images do not appear we can help you troubleshoot.
 
 #### Need help? Here's a video showing the steps in Task 3:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1SlEnwxlCOI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1SlEnwxlCOI" frameborder="0" ></iframe>
 
 ### Task 4: Our next task is to add 360 image file for each image to Demo folder.
 
@@ -193,7 +193,7 @@ Here on line 31:
 We are changing a component ``` <a-sky> ```
 The sky primitive adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
 
-#### Help video for Task 4 and 5 is at the end of Task 5. 
+#### Help video for Task 4 and 5 is at the end of Task 5.
 
 ### Task 5: Add Link to the demos in gallery.html
 Now We need to then connect these images to their 360 view. To do so we use Javascript.
@@ -220,7 +220,7 @@ Example: If your curved image component is ```html <a-curvedimage id="three" src
  Now you can test your app here and check if all the links are working in your repository.   
 
 #### Need help? Here's a video showing the steps to Tasks 4 and 5  
- <iframe width="560" height="315" src="https://www.youtube.com/embed/WbdNPDK2rak" frameborder="0" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/WbdNPDK2rak" frameborder="0"></iframe>
 
 ### Additional Work: Going Deeper with A-Frame
 You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. If you'd like to go deeper, let's take a look at some remaining concepts.
