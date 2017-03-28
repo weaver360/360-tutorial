@@ -50,7 +50,7 @@ This demo gallery only has 2 images. So to fix this, we need to add your images 
 
 ![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
 
-### Task 1: Upload images to the assets folder ([helper video](https://youtu.be/Sr0En2GScTg))
+### Task 1: Upload images to the assets folder ([helper video](https://youtu.be/Sr0En2GScTg target="_blank"))
 The first task is to upload the images you just clicked in the asset folder.
 
 If you don't have images you can use these images from a Google Drive folder. Download these [360 images](https://drive.google.com/open?id=0B7icOoMjnbmPZDBjVFAycHN4a3c) to your Desktop to use them.
