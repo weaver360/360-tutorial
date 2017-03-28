@@ -1,11 +1,17 @@
 ## 360˚ WebVR Virtual Tour Tutorial
 
 ### Introduction
+The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset.
+
+Required software and web accounts to set up:
+* Download Atom, a text editor (or editor of your choice) at [Atom](https://atom.io)
+* Create a Github account at [https://github.com](https://github.com)
+
 The webpage you’re looking at is called a “GitHub repository,” and it contains the files you'll use to build the virtual tool. Look at the folder structure and mentally note the names of the the folders.
 
 Once you have looked at them, let's get started.
 
-### Create an NCSU Github account
+### Create a Github account
 If you do not already have an NCSU Github account, create one [here](https://github.ncsu.edu)
 
 Log into your account.
@@ -31,17 +37,21 @@ Under Github Pages, click the dropdown menu under Source. Change to **master bra
 
 This will create a new web page where you can see your gallery live!
 
-### Learn to make your own gallery
+Refresh the settings page.
 
-Open this link in a **new tab** to see what your gallery currently looks like, replacing YOUR_USERNAME with your Github username:
+A green link should appear that looks like this:
+![](assets/published.png)
+
+Open your Github Pages link in a **new tab** to see your current 360 VR gallery.
 https://pages.github.com/Your_Username/360-tutorial
 
+#### Need help? Here's a video showing the previous steps:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yZmi2VQp4Mw" frameborder="0" allowfullscreen></iframe>
+
+### Learn to make your own gallery
+This demo gallery only has 2 images. So to fix this, we need to add your images to this page.
+
 ![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
-
-As you can see, it's not quite similar to the gallery we saw previously in the Google Cardboard.  
-We just have 2 images here instead of 6.
-
-So to fix this, we need to add the remaining 4 images to this page.
 
 ### Task 1: Add images to the assets folder
 The first task is to upload the images you just clicked in the asset folder.
@@ -57,17 +67,24 @@ Rename the images to something you can easily remember. (for example a.jpg, b.jp
 Then click on ‘Upload files’ button.
 ![Upload files](/readme_files/upload.jpg "Upload files")
 
-Upload all the images (i.e., 3.jpg, 4.jpg, 5.jpg and 6.jpg) that you just clicked or downloaded.
+**Upload all the images** (i.e., 3.jpg, 4.jpg, 5.jpg and 6.jpg) that you just clicked or downloaded.
 
 After you are done uploading the images to the ‘assets’ folder, go to the [gallery.html](https://github.com/Your_Username/360-tutorial/blob/master/gallery.html) in your repository.
 
 Click on the edit button.
 ![Cick at edit in gallery.html](/readme_files/galleryselectedit.jpg "Edit gallery.html")
 
-Add some code in here to be able to see the remaining images.
+In the next task, you will add some code in here to be able to see your images.
 
-### Task 2: Add Assets for remaining images.
+#### Need help? Here’s a video of Task 1:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr0En2GScTg" frameborder="0" allowfullscreen></iframe>
+
+### Task 2: Add lines of code to gallery.html file for your images.
 We place all our assets in one place for better performance.
+
+Click on the 360-tutorial link at the top left of the page to go back to the list of files.
+
+Click on gallery.html
 
 Look at lines 16 to 24 in the gallery.html file for reference
 ![Line 16 to 24](/readme_files/Line16-24.png "Line 16 to 24")
@@ -90,8 +107,10 @@ The src needs to show the location (in the assets folder) and name of the file: 
 
 *Hint: You can look at the assets already added for other images at lines 17 and 18.*
 
-When you've done this for the 4 new images, scroll to the bottom of the page and press the green commit button.
+When you've done this for all of your images, scroll to the bottom of the page and press the green commit button.
 
+#### Need help? Here's a video showing the steps in Task 2:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmrXa2nGlzo" frameborder="0" allowfullscreen></iframe>
 
 ### Task 3: Add the curved-image components for remaining images.
 We have now linked our images to our webpage, Our next task is to display them.
@@ -140,6 +159,9 @@ Example: If your asset is:
 
  If Images do not appear we can help you troubleshoot.
 
+#### Need help? Here's a video showing the steps in Task 3:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1SlEnwxlCOI" frameborder="0" allowfullscreen></iframe>
+
 ### Task 4: Our next task is to add 360 image file for each image to Demo folder.
 
 Go to https://github.com/Your_Username/360-tutorial/tree/master/demos
@@ -148,10 +170,10 @@ Here we have to create a folder for each 360 view.
 As you can see there are already 6 folders created in this view.
 
 We need to go to each folder and make two changes.
-The first change is in /demos/1/assets/
+The first change is in /demos/3/assets/
 Add your image that is the 1st image in your gallery.
 
-The second change: Open https://github.com/Your_Username/360-tutorial/blob/master/demos/1/index.html
+The second change: Open https://github.com/Your_Username/360-tutorial/blob/master/demos/3/index.html
 And add Assets for our image and change the corresponding component.
 And make the necessary change on line 13 and 31 of the above file.
 
@@ -159,7 +181,7 @@ At line 13:
 ```
 <img id="background" src="assets/1-bg.jpg">
 ```
-Change 1-bg to the name of image you just added to the assets folder.
+Change 1-bg to the name of image you just added to the assets folder. (Ex: 3.jpg)
 
 And at line 31:
 ```
@@ -171,6 +193,8 @@ Here on line 31:
 We are changing a component ``` <a-sky> ```
 The sky primitive adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
 
+#### Help video for Task 4 and 5 is at the end of Task 5. 
+
 ### Task 5: Add Link to the demos in gallery.html
 Now We need to then connect these images to their 360 view. To do so we use Javascript.
 You can refer the code below, How we link the first image to its 360 view
@@ -181,19 +205,22 @@ document.querySelector("#one").addEventListener('click', function() {
 ```
 
 As you notice, #one is the id you use while adding the components for the assets.
-Now to finish the Task 5 you need to add similar code for the 4 images that you just added.
+Now to finish the Task 5 you need to add similar code for the images that you just added.
 
 REMEMBER: That the id used in the curved-image component should be similar to the querySelector in your javascript.
 
-Example: If your curved image component is ```html <a-curvedimage id="one" src="#first" transparent="true" height="3" radius="5" theta-length="40" rotation="0 280 0" position="0 0.8 0"> </a-curvedimage>```
+Example: If your curved image component is ```html <a-curvedimage id="three" src="#third" transparent="true" height="3" radius="5" theta-length="40" rotation="0 180 0" position="0 0.8 0"> </a-curvedimage>```
 
- Then your javascript will be ```document.querySelector("#one").addEventListener('click', function() {window.location.href = "demos/1/index.html";});```
+ Then your javascript will be ```document.querySelector("#three").addEventListener('click', function() {window.location.href = "demos/3/index.html";});```
 
  Start editing gallery.html from line 105.
 
  Commit your changes.
 
- Now you can test your app here and check if all the links are working:[gallery.html](https://github.ncsu.edu/YOUR_UNITYID/360-tutorial/blob/master/gallery.html) in your repository.   
+ Now you can test your app here and check if all the links are working in your repository.   
+
+#### Need help? Here's a video showing the steps to Tasks 4 and 5  
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/WbdNPDK2rak" frameborder="0" allowfullscreen></iframe>
 
 ### Additional Work: Going Deeper with A-Frame
 You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. If you'd like to go deeper, let's take a look at some remaining concepts.
