@@ -1,5 +1,5 @@
 ## 360˚ WebVR Virtual Tour Tutorial
-This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://github.com/smsejwan). The tutorial was adapted for a workshop at NCSU Libraries by Alison Blaine ([@alblaine](https://github.com/alblaine)).
+This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://github.com/smsejwan)). The tutorial was adapted for a workshop at NCSU Libraries by Alison Blaine ([@alblaine](https://github.com/alblaine)).
 
 ### Introduction
 The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset.
@@ -11,6 +11,9 @@ Required software and web accounts to set up:
 The webpage you’re looking at is called a “GitHub repository,” and it contains the files you'll use to build the virtual tool. Look at the folder structure and mentally note the names of the the folders.
 
 Once you have looked at them, let's get started.
+
+### Tutorial Videos on YouTube
+This [set of tutorial videos at go.ncsu.edu/360playlist ](https://go.ncsu.edu/360playlist) accompanies this tutorial and is designed to help you see the steps in action. There is a video for each workshop task. It's best to open the video link in a new browser so that you can look at the videos and also edit the code.
 
 ### Create a Github account
 If you do not already have an Github account, create one [here](https://github.com)
