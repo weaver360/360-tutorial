@@ -76,8 +76,8 @@ Click on the edit button.
 
 In the next task, you will add some code in here to be able to see your images.
 
-#### Need help? Here’s a video of Task 1:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr0En2GScTg" frameborder="0" ></iframe>
+#### Need help? [Here’s a video of Task 1](https://youtu.be/Sr0En2GScTg)
+
 
 ### Task 2: Add lines of code to gallery.html file for your images.
 We place all our assets in one place for better performance.
