@@ -1,4 +1,5 @@
 ## 360˚ WebVR Virtual Tour Tutorial
+This app and tutorial were created by Shalini Sejwani (@smsejwan). The tutorial was modified for a workshop at NCSU Libraries by Alison Blaine (@alblaine)
 
 ### Introduction
 The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset.
@@ -12,16 +13,14 @@ The webpage you’re looking at is called a “GitHub repository,” and it cont
 Once you have looked at them, let's get started.
 
 ### Create a Github account
-If you do not already have an NCSU Github account, create one [here](https://github.ncsu.edu)
+If you do not already have an Github account, create one [here](https://github.com)
 
 Log into your account.
 
 ### Fork the code repository
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original repository.
 
-Navigate to [https://github.com/smsejwan/360-tutorial](https://github.com/smsejwan/360-tutorial)
-
-Click the "Fork" button in the top right of the page:
+Click the "Fork" button in the top right of this page:
 ![](assets/fork.png)
 
 You should now have this code repository in your own Github account at the following address (replace YOUR_USERNAME with your Github account name):
