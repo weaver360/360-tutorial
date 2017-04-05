@@ -65,12 +65,14 @@ Open the [*assets*](https://github.com/Your_Username/360-tutorial/tree/master/as
 
 ![Select assets](/readme_files/assetsselect.jpg "Select assets")
 
-Rename the images to something you can easily remember. (for example a.jpg, b.jpg, etc...)
+This workshop is going to guide you through adding **three new images** to the two that are already in the gallery. The gallery has space for four new images. After finishing this workshop, you should be able to add the last one on your own!
+
+We already have two images in the gallery, and we will keep those. Rename your images to the following: **3.jpg, 4.jpg, and 5.jpg**.
 
 Then click on ‘Upload files’ button.
 ![Upload files](/readme_files/upload.jpg "Upload files")
 
-**Upload all the images** (i.e., 3.jpg, 4.jpg, 5.jpg and 6.jpg) that you just clicked or downloaded.
+**Upload the three new images to the assets folder** (3.jpg, 4.jpg and 5.jpg).
 
 After you are done uploading the images to the ‘assets’ folder, go to the [gallery.html](https://github.com/Your_Username/360-tutorial/blob/master/gallery.html) in your repository.
 
