@@ -20,17 +20,19 @@ If you do not already have a Github account, create one [here](https://github.co
 
 Log into your account.
 
-### Fork the code repository ([helper video](https://youtu.be/yZmi2VQp4Mw?t=35)
+### Fork the code repository ([helper video](https://youtu.be/yZmi2VQp4Mw?t=12))
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original repository.
 
 Click the "Fork" button in the top right of this page:
 ![](assets/fork.png)
 
+Select your repository as the place to fork it.
+
 You should now have this code repository in your own Github account at the following address (replace YOUR_USERNAME with your Github account name):
 
 https://github.com/Your_Username/360-tutorial
 
-### Create a Github page for your project ([helper video](https://youtu.be/yZmi2VQp4Mw))
+### Create a Github page for your project ([helper video](https://youtu.be/yZmi2VQp4Mw?t=35))
 Click on Settings
 
 Under Github Pages, click the dropdown menu under Source. Change to **master branch**
