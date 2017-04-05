@@ -183,13 +183,12 @@ And at line 31:
  ```
 Make sure your id in line 13 is similar to your src on your line 31, in this case, id="background" and src="assets"
 
-Here on line 31:
-We are changing a component ``` <a-sky> ```
-The sky primitive adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
+Explanation of line 31:
+The component ``` <a-sky> ``` adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
 
 ### Task 5: Add Link to the demos in gallery.html ([helper video](https://youtu.be/WbdNPDK2rak?list=PLFtxGQKkdHa03RFEyUhgHShPm9llCDncL&t=87))
-Now We need to then connect these images to their 360 view. To do so we use Javascript.
-You can refer the code below, How we link the first image to its 360 view
+Now you need to connect these images to their 360 view. To do so you will use Javascript.
+You can refer the code below, which shows an example of how the first image is linked to its 360 view
 ```
 document.querySelector("#one").addEventListener('click', function() {
                 window.location.href = "demos/1/index.html";
