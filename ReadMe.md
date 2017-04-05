@@ -49,9 +49,8 @@ A green link should appear that looks like this:
 Open your Github Pages link in a **new tab** to see your current 360 VR gallery.
 https://pages.github.com/Your_Username/360-tutorial
 
-
 ### Learn to make your own gallery
-This demo gallery only has 2 images. So to fix this, we need to add your images to this page.
+This demo gallery only has 2 images. This workshop is going to guide you through adding **one new image** to the two that are already in the gallery. After the workshop, you can add more images on your own!
 
 ![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
 
@@ -65,25 +64,23 @@ Open the [*assets*](https://github.com/Your_Username/360-tutorial/tree/master/as
 
 ![Select assets](/readme_files/assetsselect.jpg "Select assets")
 
-This workshop is going to guide you through adding **three new images** to the two that are already in the gallery. The gallery has space for four new images. After finishing this workshop, you should be able to add the last one on your own!
-
-We already have two images in the gallery, and we will keep those. Rename your images to the following: **3.jpg, 4.jpg, and 5.jpg**.
+We already have two images in the gallery, and we will keep those. Rename your image you want to add to the following: **3.jpg**.
 
 Then click on ‘Upload files’ button.
 ![Upload files](/readme_files/upload.jpg "Upload files")
 
-**Upload the three new images to the assets folder** (3.jpg, 4.jpg and 5.jpg).
+**Upload the new image to the assets folder** (3.jpg).
 
-After you are done uploading the images to the ‘assets’ folder, go to the [gallery.html](https://github.com/Your_Username/360-tutorial/blob/master/gallery.html) in your repository.
+After you are done uploading the image to the ‘assets’ folder, go to the [gallery.html](https://github.com/Your_Username/360-tutorial/blob/master/gallery.html) in your repository.
 
 Click on the edit button.
 ![Cick at edit in gallery.html](/readme_files/galleryselectedit.jpg "Edit gallery.html")
 
-In the next task, you will add some code in here to be able to see your images.
+In the next task, you will add some code in here to be able to see your new image.
 
 
 ### Task 2: Add lines of code to gallery.html file for your images. ([helper video](https://youtu.be/CmrXa2nGlzo))
-We place all our assets in one place for better performance.
+Place all your assets in one place for better performance.
 
 Click on the 360-tutorial link at the top left of the page to go back to the list of files.
 
@@ -92,7 +89,7 @@ Click on gallery.html
 Look at lines 16 to 24 in the gallery.html file for reference
 ![Line 16 to 24](/readme_files/Line16-24.png "Line 16 to 24")
 
-We place asset files (i.e., the photos) between these bracketed phrases ```<a-assets> </a-assets>```
+Place asset files (i.e., the photos) between these bracketed phrases ```<a-assets> </a-assets>```
 
 The code for adding an asset looks like this:
 ```html
@@ -100,20 +97,20 @@ The code for adding an asset looks like this:
 <img id="second" src="assets/2.jpg">
 ```
 
-We need to add assets for the remaining images that we just uploaded to our assets folder so that they look similar.
+You need to add an asset in the code for your image that you just uploaded.
 
 Go to gallery.html and start adding assets on line 19 in gallery.html file.
 
-Note that each img id must be different. Use this pattern: For 1st image: id="first" and for the second image: id="second" etc.)
+Note that each img id must be different. Use this pattern: For 1st image: id="first" and for the second image: id="second" etc.) For your image, you can type id="third".
 
 The src needs to show the location (in the assets folder) and name of the file: "assets/imagename.jpg" (Example: src=”assets/1.jpg”)
 
 *Hint: You can look at the assets already added for other images at lines 17 and 18.*
 
-When you've done this for all of your images, scroll to the bottom of the page and press the green commit button.
+When you've done this for your image, scroll to the bottom of the page and press the green commit button.
 
-### Task 3: Add the curved-image components for remaining images. ([helper video](https://youtu.be/1SlEnwxlCOI))
-We have now linked our images to our webpage, Our next task is to display them.
+### Task 3: Add the curved-image component for the new image. ([helper video](https://youtu.be/1SlEnwxlCOI))
+You have now linked your image to our webpage. Your next task is to display them.
 To display them, we need to add a line like:
 
 ```html
@@ -134,7 +131,7 @@ position="0 0.8 0">
 **Theta-length:** is the length occupied by the image in a circle. Circumference of the circle is 360 and here we have 6 images, and we are giving a theta length of 40 to each and there is a distance of 10 degrees between each image to keep them separated.  
 **Position:** We are placing our 1st image at the position “0 280 0” moving along the y axis, we reduce the degree 50 (40 degree is space occupied by each image + 10 degree for distance between each image) so the position of our *second image will be “0 230 0”* and similarly for *third image it will be “0 180 0”* and so on.  
 
-Here the properties **“id”**, **“src”** and **“rotation”**  need to be changed for each image.
+Here the properties **“id”**, **“src”** and **“rotation”**  need to be changed for each new image.
 
 Refer to line 30 to 39 in gallery.html and add similar lines there.  
 ![Line 30 to 39](/readme_files/Line30-39.png "Line 30 to 39")
@@ -155,30 +152,30 @@ Example: If your asset is:
  See that id in assets is same as src in your curved-image component.
  Start adding code at line 38.
 
- Once you’ve changed the code in **gallery.html**, click on this link to make sure the images appears: https://pages.github.ncsu.edu/smsejwan/360-tutorial/gallery.html
+ Once you’ve changed the code in **gallery.html**, click on this link to make sure the image appears: https://pages.github.ncsu.edu/YOUR_USERNAME/360-tutorial/gallery.html
 
- If Images do not appear we can help you troubleshoot.
+ If the image does not appear, we can help you troubleshoot.
 
-### Task 4: Our next task is to add 360 image file for each image to Demo folder. ([helper video](https://youtu.be/WbdNPDK2rak))
+### Task 4: Add the 360 image file to a Demo folder. ([helper video](https://youtu.be/WbdNPDK2rak))
 
 Go to https://github.com/Your_Username/360-tutorial/tree/master/demos
 
-Here we have to create a folder for each 360 view.
-As you can see there are already 6 folders created in this view.
+There needs to be a folder for each 360 image. Each folder has its own .html file, Javascript, and assets folder.
 
-We need to go to each folder and make two changes.
-The first change is in /demos/3/assets/
-Add your image that is the 1st image in your gallery.
+As you can see, there are already 6 folders created in this view, which means there can be up to 6 images in this gallery (before you have to start adding more folders).
 
-The second change: Open https://github.com/Your_Username/360-tutorial/blob/master/demos/3/index.html
-And add Assets for our image and change the corresponding component.
-And make the necessary change on line 13 and 31 of the above file.
+Since you are adding a third image to the gallery, you will need to go into folder 3 and make two changes:
+The first change is in /demos/3/assets/. Click on the assets folder inside of folder 3.
+
+Add your image (3.jpg) by uploading it to the assets folder. Click "Upload files" button and select 3.jpg from your computer. Commit this change.
+
+The second change: Now go into Folder 3 and open the index.html file.
 
 At line 13:
 ```
 <img id="background" src="assets/1-bg.jpg">
 ```
-Change 1-bg to the name of image you just added to the assets folder. (Ex: 3.jpg)
+Change *1-bg* to the name of image you just added to the assets folder. (Ex: 3.jpg)
 
 And at line 31:
 ```
