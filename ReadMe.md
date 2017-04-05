@@ -16,11 +16,11 @@ Once you have looked at them, let's get started.
 This [set of tutorial videos at go.ncsu.edu/360playlist ](https://go.ncsu.edu/360playlist) accompanies this tutorial and is designed to help you see the steps in action. There is a video for each workshop task. It's best to open the video link in a new browser so that you can look at the videos and also edit the code.
 
 ### Create a Github account
-If you do not already have an Github account, create one [here](https://github.com)
+If you do not already have a Github account, create one [here](https://github.com)
 
 Log into your account.
 
-### Fork the code repository ([helper video](https://youtu.be/yZmi2VQp4Mw))
+### Fork the code repository ([helper video](https://youtu.be/yZmi2VQp4Mw?t=35)
 A fork is like a copy of someone else's code repository that you can make changes to without affecting the original repository.
 
 Click the "Fork" button in the top right of this page:
@@ -186,7 +186,7 @@ Here on line 31:
 We are changing a component ``` <a-sky> ```
 The sky primitive adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
 
-### Task 5: Add Link to the demos in gallery.html ([helper video for Task 4 and 5](https://youtu.be/WbdNPDK2rak))
+### Task 5: Add Link to the demos in gallery.html ([helper video](https://youtu.be/WbdNPDK2rak?list=PLFtxGQKkdHa03RFEyUhgHShPm9llCDncL&t=87))
 Now We need to then connect these images to their 360 view. To do so we use Javascript.
 You can refer the code below, How we link the first image to its 360 view
 ```
