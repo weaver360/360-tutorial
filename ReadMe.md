@@ -79,7 +79,7 @@ Click on the edit button.
 In the next task, you will add some code in here to be able to see your new image.
 
 
-### Task 2: Add lines of code to gallery.html file for your images. ([helper video](https://youtu.be/CmrXa2nGlzo))
+### Task 2: Edit gallery.html file to add your image as an asset. ([helper video](https://youtu.be/CmrXa2nGlzo))
 Place all your assets in one place for better performance.
 
 Click on the 360-tutorial link at the top left of the page to go back to the list of files.
@@ -160,9 +160,9 @@ Example: If your asset is:
 
 Go to https://github.com/Your_Username/360-tutorial/tree/master/demos
 
-There needs to be a folder for each 360 image. Each folder has its own .html file, Javascript, and assets folder.
+There needs to be a folder for each 360 image. Each folder has its own .html file, javascript, and assets folder.
 
-As you can see, there are already 6 folders created in this view, which means there can be up to 6 images in this gallery (before you have to start adding more folders).
+As you can see, there are already 6 folders created in this view, to make it easier to add a total of 6 images in the gallery.
 
 Since you are adding a third image to the gallery, you will need to go into folder 3 and make two changes:
 The first change is in /demos/3/assets/. Click on the assets folder inside of folder 3.
@@ -187,7 +187,7 @@ Explanation of line 31:
 The component ``` <a-sky> ``` adds a background color or 360° image to a scene. A sky is a large sphere with a color or texture mapped to the inside.
 
 ### Task 5: Add Link to the demos in gallery.html ([helper video](https://youtu.be/WbdNPDK2rak?list=PLFtxGQKkdHa03RFEyUhgHShPm9llCDncL&t=87))
-Now you need to connect these images to their 360 view. To do so you will use Javascript.
+Now you need to connect the image in the gallery to its 360 view. To do so you will use javascript.
 You can refer the code below, which shows an example of how the first image is linked to its 360 view
 ```
 document.querySelector("#one").addEventListener('click', function() {
@@ -195,7 +195,6 @@ document.querySelector("#one").addEventListener('click', function() {
             });
 ```
 
-As you notice, #one is the id you use while adding the components for the assets.
 Now to finish the Task 5 you need to add similar code for the images that you just added.
 
 REMEMBER: That the id used in the curved-image component should be similar to the querySelector in your javascript.
@@ -204,7 +203,13 @@ Example: If your curved image component is ```html <a-curvedimage id="three" src
 
  Then your javascript will be ```document.querySelector("#three").addEventListener('click', function() {window.location.href = "demos/3/index.html";});```
 
- Start editing gallery.html from line 105.
+ Start editing gallery.html from line 105. This is what the code you add should look like:
+
+ ```
+ document.querySelector("#three").addEventListener('click', function() {
+                 window.location.href = "demos/3/index.html";
+             });
+ ```
 
  Commit your changes.
 
@@ -212,10 +217,12 @@ Example: If your curved image component is ```html <a-curvedimage id="three" src
  Now you can test your app here and check if all the links are working in your repository.
 
 ### Additional Work: Going Deeper with A-Frame
-You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. If you'd like to go deeper, let's take a look at some remaining concepts.
+You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. To better understand the code, let's take a look at some remaining concepts:
 
-In our gallery.html
-First part is the ***header section*** of our HTML file.
+In our gallery.html file:
+
+The first part is the ***header section*** of our HTML file.
+
 Here we are just linking our aframe.js
 ![header](/readme_files/head.png "header")
 
