@@ -4,7 +4,7 @@ This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://githu
 ### Introduction
 The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset. Here's an example of what the virtual gallery might look like:
 
-![](assets/example.png)
+<img src="assets/example.png" width="500"></img>
 
 Required preparation:
 * Create a Github account at [https://github.com](https://github.com)
@@ -53,9 +53,9 @@ https://pages.github.com/Your_Username/360-tutorial
 ### Learn to make your own gallery
 This demo gallery only has 2 images. This workshop is going to guide you through adding **one new image** to the two that are already in the gallery. After the workshop, you can add more images on your own!
 
-![Incomplete gallery](/readme_files/incompletegallery.png "Incomplete gallery")
+<img src="/readme_files/incompletegallery.png" width="500"></img>
 
-### Task 1: Upload images to the assets folder ([helper video](https://youtu.be/Sr0En2GScTg))
+### Task 1: Upload image to the assets folder ([helper video](https://youtu.be/Sr0En2GScTg))
 
 The first task is to upload the images you just clicked in the asset folder.
 
@@ -216,6 +216,9 @@ Example: If your curved image component is ```html <a-curvedimage id="three" src
 
 ### Task 5B - Testing ([helper video](https://youtu.be/IDxwfLmBxzU))
  Now you can test your app here and check if all the links are working in your repository.
+
+### Add more images
+Now that you have had practice adding one image, you can add more images to your gallery using the same process.
 
 ### Additional Work: Going Deeper with A-Frame
 You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. To better understand the code, let's take a look at some remaining concepts:
