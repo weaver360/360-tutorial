@@ -2,15 +2,16 @@
 This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://github.com/smsejwan)). The tutorial was adapted for a workshop at NCSU Libraries by Alison Blaine ([@alblaine](https://github.com/alblaine)).
 
 ### Introduction
-The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset.
+The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset. Here's an example of what the virtual gallery might look like:
 
-Required software and web accounts to set up:
-* Download Atom, a text editor (or editor of your choice) at [Atom](https://atom.io)
+![](assets/example.png)
+
+Required preparation:
 * Create a Github account at [https://github.com](https://github.com)
 
-The webpage you’re looking at is called a “GitHub repository,” and it contains the files you'll use to build the virtual tool. Look at the folder structure and mentally note the names of the the folders.
+The webpage you’re looking at is called a “GitHub repository,” and it contains the files you'll use to build the virtual tour. Look at the folder structure and mentally note the names of the the folders.
 
-Once you have looked at them, let's get started.
+Once you have looked at them, let's get started!
 
 ### Tutorial Videos on YouTube
 This [set of tutorial videos at go.ncsu.edu/360playlist ](https://go.ncsu.edu/360playlist) accompanies this tutorial and is designed to help you see the steps in action. There is a video for each workshop task. It's best to open the video link in a new browser so that you can look at the videos and also edit the code.
