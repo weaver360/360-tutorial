@@ -1,4 +1,4 @@
-## 360˚ WebVR Virtual Tour Tutorial
+## 360˚ WebVR Virtual Tour Workshop
 This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://github.com/smsejwan)). The tutorial was adapted for a workshop at NCSU Libraries by Alison Blaine ([@alblaine](https://github.com/alblaine)).
 
 ### Introduction
