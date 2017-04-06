@@ -220,7 +220,7 @@ Example: If your curved image component is ```html <a-curvedimage id="three" src
 ### Add more images
 Now that you have had practice adding one image, you can add more images to your gallery using the same process.
 
-### Additional Work: Going Deeper with A-Frame
+### Going Deeper with A-Frame
 You have now worked with the major components of A-Frame to create your own gallery, and you can stop here. To better understand the code, let's take a look at some remaining concepts:
 
 In our gallery.html file:
@@ -228,7 +228,8 @@ In our gallery.html file:
 The first part is the ***header section*** of our HTML file.
 
 Here we are just linking our aframe.js
-![header](/readme_files/head.png "header")
+
+<img src="/readme_files/head.png" width="500"></img>
 
 Next comes setting up ***A-scene***  
 
