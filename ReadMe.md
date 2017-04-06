@@ -4,7 +4,7 @@ This app and tutorial were created by Shalini Sejwani ([@smsejwan](https://githu
 ### Introduction
 The goal of this workshop is to create a virtual gallery of 360-degree photos that can be viewed in a VR headset. Here's an example of what the virtual gallery might look like:
 
-<img src="assets/example.png" width="500"></img>
+<a href="https://pages.github.ncsu.edu/smsejwan/360-demo/index.html"><img src="assets/example.png" width="500"></img></a>
 
 Required preparation:
 * Create a Github account at [https://github.com](https://github.com)
