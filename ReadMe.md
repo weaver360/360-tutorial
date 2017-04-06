@@ -229,7 +229,7 @@ Here we are just linking our aframe.js
 Next comes setting up ***A-scene***  
 
 A scene is represented by the `<a-scene>` element. The scene contains all entities.  
-Functions of A-scene are to:
+The functions of `<a-scene>` are to:
 - Add default canvas, renderer camera and lights
 - Set up VREffect
 - Add UI to Enter VR that calls WebVR API
@@ -239,7 +239,7 @@ The first section in a-scene is to add assets.
 We place all our assets in one place to preload and cache assets for better performance, as we did in our app to add all images in the assets section.  
 
 Next we add all the things that we want to appear on our screen.
-In our case we add all the image components.
+In our case we add all the image components:
 ![Image Components](/readme_files/image_components.png "Image Components")
 
 Next is adding sky and light components and setting up the camera and cursor.  
@@ -251,5 +251,5 @@ Next is adding sky and light components and setting up the camera and cursor.
 Then we finally add our javascript to load VR mode automatically and link images
 ![Auto enter Vr Script](/readme_files/js_script.png "Auto-enter Vr Script")
 
-### You can extend this app
-https://pages.github.ncsu.edu/smsejwan/a-frame-gallery/homepage.html
+### A-Frame Documentation
+You can extend your app and make other webVR projects. To find out more, see the A-Frame documentation: https://aframe.io/docs/0.5.0/introduction/
