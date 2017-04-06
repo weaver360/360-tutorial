@@ -47,6 +47,7 @@ This will create a new web page where you can see your gallery live!
 Refresh the settings page.
 
 A green link should appear that looks like this:
+
 ![](readme_files/published.png)
 
 Open your Github Pages link in a **new tab** to see your current 360 VR gallery.
